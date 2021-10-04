@@ -41,3 +41,74 @@ img {
 .sm-catergory-main-hover:hover {
   opacity: 1;
 }
+
+.sm-image {
+  width: 10%;
+  float: left;
+  margin: 1.5%;
+}
+
+.sm-image--space {
+  margin-left: 12%;
+}
+
+.sm-image--double-space {
+  margin-left: 24%;
+}
+
+.sm-image--five-space {
+  margin-left: 60%;
+}
+
+
+.sm-image--next-line {
+  margin-left: 3%;
+}
+
+/* Twink Page */
+
+.sm-image--twinks {
+ margin-top: 50px;
+}
+
+.sm-image--selfie {
+margin-top: 80px;
+}
+
+.sm-image--twinkstanding {
+margin-top: 20px;
+}
+
+.sm-image--tom {
+margin-top: 100px;
+}
+
+.sm-image--motorcycle {
+margin-top: 120px;
+}
+
+.sm-image--troye {
+margin-top: 80px;
+}
+
+.sm-image--peter {
+}
+
+.sm-image--dick2 {
+  margin-top: 50px;
+}
+
+.sm-image--dick1 {
+margin-top: 50px;
+}
+
+.sm-image--finger {
+}
+
+.sm-image--ass {
+  margin-top: 50px;
+}
+
+.sm-image-beachtwink {
+  margin-top: 0px;
+}
