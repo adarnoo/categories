@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.sm-page {
+  position: relative;
+}
+
+.sm-spinning-image-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10%;
+}
+
+.sm-main-container {
+  position: fixed;
+  display: block;
+  top: 20%;
+  margin: 0 40%;
+  width: 20%;
+}
+
+.sm-main-catergories {
+  position: relative;
+}
+
+.sm-catergory-main-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  opacity: 0;
+}
+
+.sm-catergory-main-hover:hover {
+  opacity: 1;
+}
