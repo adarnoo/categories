@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 img {
@@ -40,6 +43,24 @@ img {
 
 .sm-catergory-main-hover:hover {
   opacity: 1;
+}
+
+.sm-image-container--zoom {
+  transform: scale(1.3) translateY(22vw) translateX(10vw);
+  transform-origin: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-image-container-inner {
+  width: 100%;
+  transform: translate(
+    calc(calc(var(--mouse-x) / 1.5 * -1) + 120px),
+    calc(calc(var(--mouse-y) / 2.5 * -1) + 20px)
+  );
 }
 
 .sm-image {
