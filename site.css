@@ -56,6 +56,10 @@ img {
   margin-left: 24%;
 }
 
+.sm-image--four-space {
+  margin-left: 48%;
+}
+
 .sm-image--five-space {
   margin-left: 60%;
 }
