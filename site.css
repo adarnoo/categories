@@ -46,7 +46,7 @@ img {
 }
 
 .sm-image-container--zoom {
-  transform: scale(1.3) translateY(22vw) translateX(10vw);
+  transform: scale(1) translateY(22vw) translateX(10vw);
   transform-origin: center;
   width: 100%;
   height: 100vh;
@@ -57,9 +57,10 @@ img {
 
 .sm-image-container-inner {
   width: 100%;
+  height: 50vh;
   transform: translate(
-    calc(calc(var(--mouse-x) / 1.5 * -1) + 120px),
-    calc(calc(var(--mouse-y) / 2.5 * -1) + 20px)
+    calc(calc(var(--mouse-x) / 2.5 * -1) + 120px),
+    calc(calc(var(--mouse-y) / 3 * -1) + 20px)
   );
 }
 
@@ -93,45 +94,47 @@ img {
 /* Twink Page */
 
 .sm-image--twinks {
- margin-top: 50px;
+ margin-top: 0px;
 }
 
 .sm-image--selfie {
-margin-top: 80px;
-}
-
-.sm-image--twinkstanding {
-margin-top: 20px;
-}
-
-.sm-image--tom {
-margin-top: 100px;
-}
-
-.sm-image--motorcycle {
-margin-top: 120px;
-}
-
-.sm-image--troye {
-margin-top: 80px;
-}
-
-.sm-image--peter {
-}
-
-.sm-image--dick2 {
-  margin-top: 50px;
-}
-
-.sm-image--dick1 {
 margin-top: 50px;
 }
 
+.sm-image--twinkstanding {
+margin-top: 10px;
+}
+
+.sm-image--tom {
+margin-top: 50px;
+}
+
+.sm-image--motorcycle {
+margin-top: 80px;
+}
+
+.sm-image--troye {
+margin-top: 30px;
+}
+
+.sm-image--peter {
+  margin-top: 10px;
+}
+
+.sm-image--dick2 {
+  margin-top: 0px;
+}
+
+.sm-image--dick1 {
+margin-top: 0px;
+}
+
 .sm-image--finger {
+  margin-top: 0px;
 }
 
 .sm-image--ass {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .sm-image-beachtwink {
