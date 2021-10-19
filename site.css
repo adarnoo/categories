@@ -12,6 +12,16 @@ img {
   width: 100%;
 }
 
+a:hover {
+  color: white;
+}
+
+button {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+
 .sm-page {
   position: relative;
 }
@@ -23,7 +33,7 @@ img {
   width: 15%;
 }
 
-.sm-link-image-container {
+.sm-link-container {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -57,16 +67,54 @@ img {
 
 .sm-links-container {
   position: absolute;
-  top: 20%;
+  top: 5%;
   left: 3%;
 }
 
-a:hover {
-  color: white;
+.sm-twink-images-container {
+  position: absolute;
+  width: 100%:
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sm-twink-images-container--show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sm-bear-images-container {
+  position: absolute;
+  width: 100%:
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sm-bear-images-container--show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sm-jock-images-container {
+  position: absolute;
+  width: 100%:
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sm-jock-images-container--show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .sm-image-container--zoom {
-  transform: scale(1) translateY(22vw) translateX(10vw);
+  transform: scale(2);
   transform-origin: center;
   width: 100%;
   height: 100vh;
@@ -82,6 +130,32 @@ a:hover {
     calc(calc(var(--mouse-x) / 2.5 * -1) + 120px),
     calc(calc(var(--mouse-y) / 3 * -1) + 20px)
   );
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 600px) {
+  .sm-main-container {
+    position: fixed;
+    display: block;
+    top: 25%;
+    margin: 0 30%;
+    width: 40%;
+  }
+
+  .sm-spinning-image-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+  }
+
+  .sm-link-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+  }
 }
 
 .sm-image {
