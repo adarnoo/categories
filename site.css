@@ -20,6 +20,8 @@ button {
   outline: none;
   border: 0;
   background-color: transparent;
+  margin: 0;
+  padding: 0;
 }
 
 .sm-page {
@@ -65,12 +67,6 @@ button {
   opacity: 1;
 }
 
-.sm-links-container {
-  position: absolute;
-  top: 5%;
-  left: 3%;
-}
-
 .sm-twink-images-container {
   position: absolute;
   width: 100%:
@@ -112,6 +108,21 @@ button {
   opacity: 1;
   pointer-events: auto;
 }
+
+.sm-links-list-container {
+  position: fixed;
+  top: 5%;
+  left: 3%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sm-links-list-container--show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
 
 .sm-image-container--zoom {
   transform: scale(2);
