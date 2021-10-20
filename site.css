@@ -5,7 +5,7 @@ body {
   height: 100%;
   overflow: hidden;
   font-family: courier;
-  font-size: 1vw;
+  font-size: 0.5vw;
 }
 
 img {
@@ -109,20 +109,19 @@ button {
   pointer-events: auto;
 }
 
-.sm-links-list-container {
-  position: fixed;
-  top: 5%;
-  left: 3%;
+.sm-links-images-container {
+  position: absolute;
+  width: 50%:
+  top: 0;
+  left: 25%;
   opacity: 0;
   pointer-events: none;
 }
 
-.sm-links-list-container--show {
+.sm-links-images-container--show {
   opacity: 1;
   pointer-events: auto;
 }
-
-
 
 .sm-image-container--zoom {
   transform: scale(2);
@@ -253,7 +252,7 @@ margin-top: 0px;
 /* Bear Page */
 
 .sm-image--tires {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .sm-image--fenty {
@@ -277,17 +276,21 @@ margin-top: 0px;
 }
 
 .sm-image--barry {
-  margin-top: 0px;
+  margin-top: 60px;
 }
 
 .sm-image--flannel {
-  margin-top: 20px;
+  margin-top: 0px;
+}
+
+.sm-image--twobears {
+  margin-top: 50px;
 }
 
 /* Jock Page */
 
 .sm-image--afro {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .sm-image--butt {
@@ -331,7 +334,7 @@ margin-top: 0px;
 }
 
 .sm-image--shower {
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 .sm-image--bike {
