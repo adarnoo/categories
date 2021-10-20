@@ -21,19 +21,19 @@
          </div>
          <div class="sm-main-container">
            <div class="sm-main-catergories">
-            <button onclick="showTwink()">
+            <button id="twink-button">
               <img class="sm-catergory-main" src="./images/twink.gif" alt="twink">
               <img class="sm-catergory-main-hover" src="./images/twinkhover.gif" alt="twink">
             </button>
            </div>
            <div class="sm-main-catergories">
-             <button onclick="showBear()">
+             <button id="bear-button">
                <img class="sm-catergory-main" src="./images/bear.gif" alt="bear">
                <img class="sm-catergory-main-hover" src="./images/bearhover.gif" alt="bear">
              </button>
            </div>
            <div class="sm-main-catergories">
-             <button onclick="showJock()">
+             <button id="jock-button">
                <img class="sm-catergory-main" src="./images/jock.gif" alt="jock">
                <img class="sm-catergory-main-hover" src="./images/jockhover.gif" alt="jock">
              </button>
@@ -119,20 +119,4 @@
           </div> -->
      </div>
     </body>
-    <script type="text/javascript">
-        function showTwink() {
-          var element = document.getElementById("twink-container");
-          element.classList.toggle("sm-twink-images-container--show");
-        }
-
-        function showBear() {
-          var element = document.getElementById("bear-container");
-          element.classList.toggle("sm-bear-images-container--show");
-        }
-
-        function showJock() {
-          var element = document.getElementById("jock-container");
-          element.classList.toggle("sm-jock-images-container--show");
-        }
-    </script>
 </html>
