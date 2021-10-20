@@ -10,10 +10,9 @@
   var bearContainer = document.getElementById("bear-container");
   var jockContainer = document.getElementById("jock-container");
 
-  // imageContainer.addEventListener("mousemove", e => {
-  //   root.style.setProperty('--mouse-x', e.pageX - imageContainer.offsetLeft + "px");
-  //   root.style.setProperty('--mouse-y', e.pageY - imageContainer.offsetTop + "px");
-  // });
+  let twinkInnerContainer = twinkContainer.getElementsByClassName('js-moving-around')[0];
+  let bearInnerContainer = bearContainer.getElementsByClassName('js-moving-around')[0];
+  let jockInnerContainer = jockContainer.getElementsByClassName('js-moving-around')[0];
 
   // Add images showing when u click on buttons
   twinkBtn.addEventListener("click", e => {
@@ -36,4 +35,21 @@
   jockContainer.addEventListener("click", e => {
     jockContainer.classList.remove("sm-jock-images-container--show");
   });
+
+  function movingAround (container, e) {
+    root.style.setProperty('--mouse-x', e.pageX - container.offsetLeft + "px");
+    root.style.setProperty('--mouse-y', e.pageY - container.offsetTop + "px");
+  }
+
+  // Moving images mousemove animation
+  twinkInnerContainer.addEventListener("mousemove", e => {
+    movingAround(twinkInnerContainer, e);
+  });
+  bearInnerContainer.addEventListener("mousemove", e => {
+    movingAround(bearInnerContainer, e);
+  });
+  jockInnerContainer.addEventListener("mousemove", e => {
+    movingAround(jockInnerContainer, e);
+  });
+
 })();
